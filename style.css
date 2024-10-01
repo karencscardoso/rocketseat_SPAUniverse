@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 65.2%;
+    --color-nav: #C4C4CC;
+    --color-base-white: #fff;
+    --color-text-p-h1: #E1E1E6;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.16rem;
+    font-weight: 400;
+    line-height: 2.17rem;
+    color: var(--color-nav);
+}
+
+a:hover {
+    font-weight: 700;
+    color: var(--color-base-white);
+}
+
+
+
+body {
+    font-size: 1.6rem;
+
+    font-family: "Roboto", system-ui;
+    background-image: url('assets/img-fundo.jpg');
+    background-size: 100vw 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+
+    padding: 4rem 7.2rem;
+ 
+}
+
+nav img {
+    width: 4.9rem;
+    height: 4.2rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 5.79rem;
+    color: var(--color-text-p-h1);
+
+    margin: 10.3rem 0 0 10.2rem;
+}
+
+p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--color-text-p-h1);
+
+    width: 64.8rem;
+
+    margin: 1.6rem 0 0 10.2rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    margin: 10rem auto;
+}
+
+#home h1 {
+    margin: 0;
+}
+
+button {
+    border-radius: 0.5rem;
+    border: solid 2px var(--color-base-white);
+    width: 19.5rem;
+    height: 4.8rem;
+    background: none;
+    color: var(--color-base-white);
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.4rem;
+
+    margin-top: 2.4rem;
+
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1)
+}
